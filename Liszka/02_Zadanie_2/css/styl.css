@@ -1,0 +1,14 @@
+body {
+    background-color: green;
+}
+
+@media screen and (width > 400px){
+    body{
+        background-color: purple;
+    }
+}
+@media screen and (800px < width){
+    body{
+        background-color: orange;
+    }
+}

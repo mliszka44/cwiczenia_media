@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    display: flex;
+}
+.lewy{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    margin-left: 10px;
+}
+.prawy{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    margin-left: 10px;
+}
+@media screen and (width < 900px) {
+    body{
+        display: block;
+    }
+    .lewy,.prawy{
+        width: 100%;
+    }
+}
